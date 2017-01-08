@@ -1,0 +1,20 @@
+{
+  "description": {
+    "en": "Tag",
+    "ru": "Tag",
+    "uk": "Tag"
+  },
+  "url": "https://github.com/pytsite/plugin-taxonomy",
+  "author": {
+    "name": "Alexander Shepetko",
+    "email": "a@shepetko.com",
+    "url": "https://shepetko.com"
+  },
+  "requires": {
+    "packages": [],
+    "plugins": [
+      "taxonomy",
+      "section"
+    ]
+  }
+}

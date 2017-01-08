@@ -1,0 +1,11 @@
+tags: 'Tags'
+section_used_by_tag: 'Section ":section_title" is used by tag ":tag_title"'
+
+odm_ui_browser_title_tag: 'Browse tags'
+odm_ui_form_title_create_tag: 'Create tag'
+odm_ui_form_title_modify_tag: 'Modify tag'
+odm_ui_form_title_delete_tag: 'Delete tag(s)'
+
+odm_auth_create_tag: 'Create tags'
+odm_auth_modify_tag: 'Edit tags'
+odm_auth_delete_tag: 'Delete tags'

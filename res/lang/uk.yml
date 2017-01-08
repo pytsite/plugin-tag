@@ -1,0 +1,11 @@
+tags: 'Теги'
+section_used_by_tag: 'Розділ ":section_title" використовується тегом ":tag_title"'
+
+odm_ui_browser_title_tag: 'Огляд тегів'
+odm_ui_form_title_create_tag: 'Створення тега'
+odm_ui_form_title_modify_tag: 'Зміна тега'
+odm_ui_form_title_delete_tag: 'Видалення тегів'
+
+odm_auth_create_tag: 'Створення тегів'
+odm_auth_modify_tag: 'Зміна тегів'
+odm_auth_delete_tag: 'Видалення тегів'
