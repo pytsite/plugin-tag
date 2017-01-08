@@ -1,4 +1,4 @@
-# PytSite Section Plugin
+# PytSite Tag Plugin
 
 ## Changelog
 
