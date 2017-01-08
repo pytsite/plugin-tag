@@ -2,7 +2,7 @@
 """
 # Public API
 from ._api import dispense_tag, find_tag_by_alias, find_tag_by_title, get_tags
-from . import _model as model
+from . import _model as model, _widget as widget
 
 __author__ = 'Alexander Shepetko'
 __email__ = 'a@shepetko.com'
