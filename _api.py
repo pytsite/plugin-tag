@@ -10,23 +10,23 @@ __email__ = 'a@shepetko.com'
 __license__ = 'MIT'
 
 
-def get_tags(limit: int = 0, language: str = None) -> _Iterable[_model.Tag]:
+def get(limit: int = 0, language: str = None) -> _Iterable[_model.Tag]:
     """Get tags.
     """
     return _taxonomy.find('tag', language).sort([('weight', _odm.I_DESC)]).get(limit)
 
 
-def dispense_tag(title: str, alias: str = None, language: str = None) -> _model.Tag:
+def dispense(title: str, alias: str = None, language: str = None) -> _model.Tag:
     return _taxonomy.dispense('tag', title, alias, language)
 
 
-def find_tag_by_title(title: str, language: str = None) -> _model.Tag:
+def find_by_title(title: str, language: str = None) -> _model.Tag:
     """Get tag by title.
     """
     return _taxonomy.find_by_title('tag', title, language)
 
 
-def find_tag_by_alias(alias: str, language: str = None) -> _model.Tag:
+def find_by_alias(alias: str, language: str = None) -> _model.Tag:
     """Get tag by alias.
     """
     return _taxonomy.find_by_alias('tag', alias, language)

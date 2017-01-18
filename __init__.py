@@ -1,7 +1,7 @@
 """PytSite Tag Plugin.
 """
 # Public API
-from ._api import dispense_tag, find_tag_by_alias, find_tag_by_title, get_tags
+from ._api import dispense, find_by_alias, find_by_title, get
 from . import _model as model, _widget as widget
 
 __author__ = 'Alexander Shepetko'
