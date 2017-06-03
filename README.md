@@ -4,6 +4,10 @@
 ## Changelog
 
 
+### 0.3.1 (2017-05-03)
+Removed dependence on **section** plugin, part 2. 
+
+
 ### 0.3 (2017-05-03)
 Removed dependence on **section** plugin. 
 

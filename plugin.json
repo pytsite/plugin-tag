@@ -1,8 +1,8 @@
 {
   "description": {
-    "en": "Tag",
-    "ru": "Tag",
-    "uk": "Tag"
+    "en": "Tags",
+    "ru": "Теги",
+    "uk": "Теги"
   },
   "url": "https://github.com/pytsite/plugin-tag",
   "author": {
@@ -13,8 +13,7 @@
   "requires": {
     "packages": [],
     "plugins": [
-      "taxonomy",
-      "section"
+      "taxonomy"
     ]
   }
 }
