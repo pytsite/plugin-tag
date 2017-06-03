@@ -1,5 +1,4 @@
 tags: 'Теги'
-section_used_by_tag: 'Розділ ":section_title" використовується тегом ":tag_title"'
 
 odm_ui_browser_title_tag: 'Огляд тегів'
 odm_ui_form_title_create_tag: 'Створення тега'

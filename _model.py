@@ -12,16 +12,6 @@ class Tag(_taxonomy.model.Term):
     """Tag Model.
     """
 
-    @classmethod
-    def on_register(cls, model: str):
-        def section_pre_delete(section: _section.model.Section):
-            tag = _taxonomy.find(model).inc('sections', section).first()  # type: Tag
-            if tag:
-                msg_args = {'section_title': section.title, 'tag_title': tag.f_get('title')}
-                raise _errors.ForbidDeletion(_lang.t('tag@section_used_by_tag', msg_args))
-
-        _events.listen('section.pre_delete', section_pre_delete)
-
     def _setup_fields(self):
         """Hook.
         """

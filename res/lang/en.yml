@@ -1,5 +1,4 @@
 tags: 'Tags'
-section_used_by_tag: 'Section ":section_title" is used by tag ":tag_title"'
 
 odm_ui_browser_title_tag: 'Browse tags'
 odm_ui_form_title_create_tag: 'Create tag'

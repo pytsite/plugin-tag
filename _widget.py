@@ -1,4 +1,4 @@
-"""PytSite Tag Plugin Widgets.
+"""PytSite Tag Plugin Widgets
 """
 from pytsite import odm as _odm
 from plugins import taxonomy as _taxonomy

@@ -4,6 +4,10 @@
 ## Changelog
 
 
+### 0.3 (2017-05-03)
+Removed dependence on **section** plugin. 
+
+
 ### 0.2 (2017-01-18)
 API functions renamed.
 
