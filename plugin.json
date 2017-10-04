@@ -1,6 +1,6 @@
 {
-  "name": "plugins.tag",
-  "version": "0.3.2",
+  "name": "tag",
+  "version": "1.0",
   "description": {
     "en": "Tags",
     "ru": "Теги",

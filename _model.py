@@ -1,4 +1,4 @@
-"""PytSite Tag Plugin Models.
+"""PytSite Tag Plugin ODM Models
 """
 from pytsite import odm as _odm, odm_ui as _odm_ui, events as _events
 from plugins import taxonomy as _taxonomy

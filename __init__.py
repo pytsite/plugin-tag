@@ -1,8 +1,8 @@
-"""PytSite Tag Plugin.
+"""PytSite Tag Plugin
 """
 # Public API
 from ._api import dispense, find_by_alias, find_by_title, get
-from . import _model as model, _widget as widget
+from . import _model as model, _field as field, _widget as widget
 
 __author__ = 'Alexander Shepetko'
 __email__ = 'a@shepetko.com'

@@ -4,6 +4,10 @@
 ## Changelog
 
 
+### 1.0 (2017-10-04)
+Added `field.Tag` ODM field.
+
+
 ### 0.3.2 (2017-08-27)
 `plugin.json` updated.
 
