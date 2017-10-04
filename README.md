@@ -4,6 +4,10 @@
 ## Changelog
 
 
+### 1.1 (2017-10-04)
+Added `field.Tags` ODM field.
+
+
 ### 1.0 (2017-10-04)
 Added `field.Tag` ODM field.
 

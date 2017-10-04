@@ -8,6 +8,21 @@ __license__ = 'MIT'
 
 
 class Tag(_odm.field.Ref):
+    """Tag ODM Field
+    """
+
+    def __init__(self, name: str, **kwargs):
+        """Init
+        """
+        kwargs['model'] = 'tag'
+
+        super().__init__(name, **kwargs)
+
+
+class Tags(_odm.field.RefsUniqueList):
+    """Tags ODM Field
+    """
+
     def __init__(self, name: str, **kwargs):
         """Init
         """
