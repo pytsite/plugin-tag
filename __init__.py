@@ -14,7 +14,7 @@ def _init():
     from plugins import taxonomy
     from . import _model
 
-    lang.register_package(__name__, alias='tag')
+    lang.register_package(__name__)
     taxonomy.register_model('tag', _model.Tag, 'tag@tags')
 
 

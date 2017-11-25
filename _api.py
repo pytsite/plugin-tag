@@ -1,8 +1,7 @@
 """PytSite Tag Plugin API Functions
 """
 from typing import Iterable as _Iterable, Optional as _Optional
-from pytsite import odm as _odm
-from plugins import taxonomy as _taxonomy
+from plugins import odm as _odm, taxonomy as _taxonomy
 from . import _model
 
 __author__ = 'Alexander Shepetko'

@@ -1,6 +1,6 @@
 """PytSite Tag Plugin ODM Fields
 """
-from pytsite import odm as _odm
+from plugins import odm as _odm
 
 __author__ = 'Alexander Shepetko'
 __email__ = 'a@shepetko.com'
