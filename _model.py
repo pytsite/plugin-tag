@@ -24,4 +24,4 @@ class Tag(_taxonomy.model.Term):
     def _pre_delete(self, **kwargs):
         super()._pre_delete(**kwargs)
 
-        _events.fire('tag.pre_delete', tag=self)
+        _events.fire('tag@pre_delete', tag=self)
