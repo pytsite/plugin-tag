@@ -1,10 +1,10 @@
 """PytSite Tag Plugin Widgets
 """
-from plugins import odm as _odm, taxonomy as _taxonomy
-
 __author__ = 'Alexander Shepetko'
 __email__ = 'a@shepetko.com'
 __license__ = 'MIT'
+
+from plugins import odm as _odm, taxonomy as _taxonomy
 
 
 class TagCloud(_taxonomy.widget.Cloud):

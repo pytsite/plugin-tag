@@ -1,12 +1,12 @@
 """PytSite Tag Plugin API Functions
 """
-from typing import Iterable as _Iterable, Optional as _Optional
-from plugins import odm as _odm, taxonomy as _taxonomy
-from . import _model
-
 __author__ = 'Alexander Shepetko'
 __email__ = 'a@shepetko.com'
 __license__ = 'MIT'
+
+from typing import Iterable as _Iterable, Optional as _Optional
+from plugins import odm as _odm, taxonomy as _taxonomy
+from . import _model
 
 
 def get(limit: int = 0, language: str = None) -> _Iterable[_model.Tag]:

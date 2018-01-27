@@ -1,11 +1,11 @@
 """PytSite Tag Plugin ODM Models
 """
-from pytsite import events as _events
-from plugins import odm as _odm, taxonomy as _taxonomy, odm_ui as _odm_ui
-
 __author__ = 'Alexander Shepetko'
 __email__ = 'a@shepetko.com'
 __license__ = 'MIT'
+
+from pytsite import events as _events
+from plugins import odm as _odm, taxonomy as _taxonomy, odm_ui as _odm_ui
 
 
 class Tag(_taxonomy.model.Term):
