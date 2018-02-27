@@ -4,6 +4,11 @@
 ## Changelog
 
 
+### 2.3 (2018-02-27)
+
+Field `order` removed.
+
+
 ### 2.2 (2018-01-27)
 
 Support for `auth-1.8`.
