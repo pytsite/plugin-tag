@@ -4,6 +4,11 @@
 ## Changelog
 
 
+### 3.0.1 (2018-03-18)
+
+`plugin.json` fixed.
+
+
 ### 3.0 (2018-03-18)
 
 Support for `taxonomy-3.0`.
