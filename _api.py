@@ -10,15 +10,15 @@ from . import _model
 
 
 def get(limit: int = 0, language: str = None) -> _Iterable[_model.Tag]:
-    """Get tags.
+    """Get tags
     """
     return _taxonomy.find('tag', language).sort([('weight', _odm.I_DESC)]).get(limit)
 
 
-def dispense(title: str, alias: str = None, language: str = None) -> _model.Tag:
-    term = _taxonomy.dispense('tag', title, alias, language)  # type: _model.Tag
-
-    return term
+def dispense(title: str, alias: str = None, language: str = None, parent: _model.Tag = None) -> _model.Tag:
+    """Create a new tag
+    """
+    return _taxonomy.dispense('tag', title, alias, language, parent)  # type: _model.Tag
 
 
 def find_by_title(title: str, language: str = None) -> _Optional[_model.Tag]:

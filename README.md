@@ -4,6 +4,11 @@
 ## Changelog
 
 
+### 3.0 (2018-03-18)
+
+Support for `taxonomy-3.0`.
+
+
 ### 2.3 (2018-02-27)
 
 Field `order` removed.

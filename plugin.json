@@ -13,12 +13,11 @@
     "url": "https://shepetko.com"
   },
   "requires": {
-    "packages": [],
     "plugins": [
       "auth>=1.8",
       "odm>=1.6.1",
       "odm_ui>=1.8.2",
-      "taxonomy>=2.6.1"
+      "taxonomy>=3.0"
     ]
   }
 }
