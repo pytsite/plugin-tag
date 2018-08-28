@@ -7,6 +7,7 @@ __license__ = 'MIT'
 # Public API
 from ._api import get, dispense, find_by_alias, find_by_title
 from . import _model as model, _field as field, _widget as widget
+from ._model import Tag
 
 
 def plugin_load():

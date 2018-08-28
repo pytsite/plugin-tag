@@ -4,6 +4,11 @@
 ## Changelog
 
 
+### 3.1 (2018-08-28)
+
+`Tag` model directly exposed to the public API.
+
+
 ### 3.0.1 (2018-03-18)
 
 `plugin.json` fixed.
