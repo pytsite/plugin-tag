@@ -1,6 +1,6 @@
 {
   "name": "tag",
-  "version": "3.1",
+  "version": "3.2",
   "description": {
     "en": "Tags",
     "ru": "Теги",
@@ -17,7 +17,7 @@
       "auth>=1.8",
       "odm>=1.6.1",
       "odm_ui>=1.8.2",
-      "taxonomy>=3.0"
+      "taxonomy>=4.0"
     ]
   }
 }

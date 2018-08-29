@@ -24,10 +24,10 @@ def dispense(title: str, alias: str = None, language: str = None, parent: _model
 def find_by_title(title: str, language: str = None) -> _Optional[_model.Tag]:
     """Get tag by title.
     """
-    return _taxonomy.find_by_title('tag', title, language)  # type: _Optional[_model.Tag]
+    return _taxonomy.get('tag', title, language)  # type: _Optional[_model.Tag]
 
 
 def find_by_alias(alias: str, language: str = None) -> _Optional[_model.Tag]:
     """Get tag by alias.
     """
-    return _taxonomy.find_by_alias('tag', alias, language)
+    return _taxonomy.get('tag', alias=alias, language=language)

@@ -4,6 +4,11 @@
 ## Changelog
 
 
+### 3.2 (2018-08-29)
+
+Support of `taxonomy-4.0`.
+
+
 ### 3.1 (2018-08-28)
 
 `Tag` model directly exposed to the public API.
