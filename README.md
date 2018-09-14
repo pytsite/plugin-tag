@@ -4,6 +4,11 @@
 ## Changelog
 
 
+### 3.2.2 (2018-09-14)
+
+`plugin.json` fixed.
+
+
 ### 3.2.1 (2018-09-14)
 
 Cleanup.
