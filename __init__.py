@@ -11,9 +11,7 @@ from ._model import Tag
 
 
 def plugin_load():
-    from pytsite import lang
     from plugins import taxonomy
     from . import _model
 
-    lang.register_package(__name__)
     taxonomy.register_model('tag', _model.Tag, 'tag@tags', menu_roles='dev')

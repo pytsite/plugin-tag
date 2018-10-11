@@ -4,6 +4,11 @@
 ## Changelog
 
 
+### 4.0 (2018-10-11)
+
+Support of `pytsite-8.x`.
+
+
 ### 3.2.2 (2018-09-14)
 
 `plugin.json` fixed.

@@ -1,6 +1,6 @@
 {
   "name": "tag",
-  "version": "3.2.2",
+  "version": "4.0",
   "description": {
     "en": "Tags",
     "ru": "Теги",
@@ -13,11 +13,12 @@
     "url": "https://shepetko.com"
   },
   "requires": {
-    "plugins": [
-      "auth>=1.8",
-      "odm>=1.6.1",
-      "odm_ui>=1.8.2",
-      "taxonomy>=4.0"
-    ]
+    "pytsite": ">=8",
+    "plugins": {
+      "auth": "3.x",
+      "odm": "5.x",
+      "odm_ui": "4.x",
+      "taxonomy": "5.x"
+    }
   }
 }
