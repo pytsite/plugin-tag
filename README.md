@@ -4,6 +4,11 @@
 ## Changelog
 
 
+### 4.1 (2018-11-14)
+
+Support of `odm_ui-5.x`.
+
+
 ### 4.0 (2018-10-11)
 
 Support of `pytsite-8.x`.
