@@ -20,8 +20,7 @@ class Tag(_taxonomy.model.Term):
 
         _events.fire('tag@pre_delete', tag=self)
 
-    @classmethod
-    def odm_ui_browser_setup(cls, browser: _odm_ui.Browser):
+    def odm_ui_browser_setup(self, browser: _odm_ui.Browser):
         """Hook.
         """
         super().odm_ui_browser_setup(browser)
