@@ -15,8 +15,8 @@ class Tag(_taxonomy.model.Term):
         super()._setup_fields()
         self.remove_field('order')
 
-    def _pre_delete(self, **kwargs):
-        super()._pre_delete(**kwargs)
+    def _on_pre_delete(self, **kwargs):
+        super()._on_pre_delete(**kwargs)
 
         _events.fire('tag@pre_delete', tag=self)
 
